@@ -70,6 +70,7 @@
     <Build Include="Tables\Visita.sql" />
     <Build Include="Tables\Detalle_Visita.sql" />
     <Build Include="Tables\Estudio.sql" />
+    <Build Include="Tables\Medico_Hospital_Servicio.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Tabla_Servicio.sql" />

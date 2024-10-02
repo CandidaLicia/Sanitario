@@ -10,7 +10,7 @@
     [Fecha_Ingreso] DATETIME NOT NULL,
     [Fecha_Salida] DATETIME NULL,
     CONSTRAINT [PK_Detalle_Visita] PRIMARY KEY CLUSTERED ([Id_Detalle_Visita] ASC),
-    --CONSTRAINT [FK_HSM_Visita] FOREIGN KEY ([Id_HSM]) REFERENCES [dbo].[Medico_Hospital_Servicio] ([Id_Medico_Hospital_Servicio]),
+    CONSTRAINT [FK_HSM_Visita] FOREIGN KEY ([Id_HSM]) REFERENCES [dbo].[Medico_Hospital_Servicio] ([Id_Medico_Hospital_Servicio]),
 	CONSTRAINT [FK_Visita] FOREIGN KEY ([Id_Visita]) REFERENCES [dbo].[Visita] ([Id_Visita]),
     CONSTRAINT [FK_Detalle_Visita_Cama] FOREIGN KEY ([Id_Cama]) REFERENCES [dbo].[Cama] ([Id_Cama])
 );
