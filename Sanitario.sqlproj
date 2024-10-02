@@ -57,6 +57,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Medico.sql" />
@@ -69,5 +70,10 @@
     <Build Include="Tables\Visita.sql" />
     <Build Include="Tables\Detalle_Visita.sql" />
     <Build Include="Tables\Estudio.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Tabla_Servicio.sql" />
+    <None Include="Scripts\Medico.sql" />
+    <None Include="Scripts\Hospital.sql" />
   </ItemGroup>
 </Project>
